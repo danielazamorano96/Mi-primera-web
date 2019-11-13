@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="mihojadeestilos.css"/>
+
+	<style>
+		p[name^="mis"] {
+			color: magenta;
+		}
+
+		p[name$="s"] {
+			color:maroon;
+			font-family: Helvetica, sans-serif;
+		}
+
+		p[name*="ele"] {
+			background-color: rgb(158, 190, 172);
+		}
+
+		p:nth-child(3) {
+			font-size: 20px;
+			font-family: fantasy;
+		}
+
+		p:first-child {
+			background-color: rgb(94, 136, 122);
+		}
+	</style>
+
+</head>
+	<body>
+		<header id="cabeceraweb">
+			<h1>Este seria el titulo de mi web</h1>
+		</header>
+		<nav id="navegacionprincipal">
+			<ul>
+				<li>Quienes somos</li>
+				<li>Marca</li>
+				<li>Productos</li>
+				<li>Contacto</li>
+			</ul>
+		</nav>
+		<aside id="barralateral">
+			<blockquote>Primer elemento</blockquote>
+			<blockquote>Segundo elemento</blockquote>
+			<blockquote>Tercer elemento</blockquote>
+		</aside>
+		<section id="contenidoprincipal">
+			<article>
+				<header>
+					<hgroup>
+						<h2><mark>Titulo de la noticia</mark></h2>
+						<h3>Subtitulo de la noticia 1</h3>
+					</hgroup>
+				</header>
+				<figure>
+					<img class="perrito"src="imagenes/perrito.jpg"/>
+					<figcaption>
+						<em>Perrito bonito</em>
+					</figcaption>
+				</figure>	
+					<p name="miselementos">Noticia 1</p>
+					<p name="misestilos">Seguimos hablando de noticia 1</p>
+					<p name="misestilitos">Terminamos de hablar de noticia 1</p>
+				<footer>	
+					<p>Comentarios de lectores</p>
+				</footer>
+			</article>
+			<article>
+				<header>
+					<h2>Titulo de la noticia 2</h2>
+				</header>	
+					<p><strong>Noticia 2</strong></p>
+					<p>Seguimos hablando de noticia 2</p>
+					<p>Terminamos de hablar de noticia 2. <cite>“Juro solemnemente que mis intenciones no son buenas.” – George. </cite></p>
+					
+				<footer>	
+					<p>Comentarios de lectores</p>
+				</footer>
+			</article>
+			<article>
+				<header>
+					<hgroup>
+						<h2>Titulo de la noticia 3</h2>
+						<h3>Subtitulo de la noticia 3</h3>
+					</hgroup>
+					<time datetime="2019/10/31" pubdate>Noticia publicada el dia 31/10/2019</time>
+				</header>	
+					<p>Noticia 3</p>
+					<p>Seguimos hablando de noticia 3</p>
+					<p>Terminamos de hablar de noticia 3</p>
+
+					<img class="perrito2" src="http://giphygifs.s3.amazonaws.com/media/5EJHDSPpFhbG0/giphy.gif">
+				<footer>	
+					<p>Comentarios de lectores</p>
+				</footer>
+			</article>	
+		</section>
+		<footer id="pieprincipal">
+			<small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend, urna vel fermentum sodales, tellus turpis tincidunt quam, ac blandit 
+			elit metus non arcu. Sed non placerat ligula. Donec congue nisi quis euismod pharetra. Pellentesque malesuada nunc eget odio pellentesque, sed maximus nisl bibendum. 
+			Donec est enim, egestas ac tortor id, eleifend dapibus nulla. Proin porta fermentum interdum. Etiam orci libero, posuere et iaculis quis, egestas sit amet libero. 
+			In hac habitasse platea dictumst. Sed vestibulum nunc mi, at vestibulum ex cursus eget. Maecenas ut est ac ante efficitur accumsan. Nunc eget augue id nisl laoreet 
+			pellentesque quis ut urna. Aenean pretium fermentum leo, sit amet finibus purus porttitor eget.</small>
+			Derechos reservados. <address>Tel 4526311</address>
+			
+		</footer>
+	</body>
+	
+</body>
+</html>

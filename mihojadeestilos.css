@@ -1,0 +1,64 @@
+#cabeceraweb {
+    background-color: lightgoldenrodyellow;
+    font-family: monospace;
+    font-size: 20px;
+    background: -webkit-radial-gradient(left, lightblue, blue);
+    
+}
+#navegacionprincipal {
+    background-color: lightpink;
+    font-family: 'Mi fuente';
+}
+#barralateral {
+    background-color: lightblue;
+    font-family: 'Mi fuente';
+    text-decoration-line: overline;
+    color: rgba(124, 58, 58, 0.5)
+}
+#contenidoprincipal {
+    /*background-color: linen;*/
+    margin-left: 215px;
+    height: 1490px;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-decoration: peachpuff; 
+    background: -webkit-linear-gradient(left, yellow 30%, lightpink 70%);
+}
+
+h1 {
+    color: greenyellow;
+}
+h1:hover {
+    color: red;
+}
+
+#pieprincipal {
+    background-color: mediumpurple;
+    clear: both;
+    margin: auto;
+}
+li {
+    background-color: mediumvioletred;
+    display: inline;
+}
+aside { 
+    float: left;
+    height: 1500px;
+}
+.perrito {
+    width: 418px;
+    border: 10px;
+    border-style: double;
+    border-radius: 20px 100px 100px 50px;
+    box-shadow: gray 5px 5px 10px;
+}
+@font-face {
+    font-family: 'Mi fuente';
+        src: url('Pacifico-Regular.ttf');
+    }
+
+.perrito2 {
+    border: lightskyblue dotted;
+    border-width: 20px;
+
+}
